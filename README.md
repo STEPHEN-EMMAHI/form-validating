@@ -21,7 +21,6 @@ MVC Architecture
 │       └── style.css
 ```
 
-
 ## How to run validatify
 
 1. Clone repo
@@ -38,6 +37,9 @@ npm run dev
 ```
 4. Copy local host and send to browser. <br> 
 Example: http://localhost:5173/
+
+## Tech Stack
+[![Tech Skills](https://skillicons.dev/icons?i=html,css,js,tailwind,vite,git)](https://skillicons.dev)
 
 ## Limitations
 1. No authentication strategies

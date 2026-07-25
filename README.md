@@ -31,7 +31,7 @@ git clone URL
 ```
 npm install
 ```
-3. Run the command
+3. Run development environment
 ``` 
 npm run dev
 ```

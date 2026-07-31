@@ -1,7 +1,9 @@
 /* Validate Email Function */
 export function validateEmail() {
   const email = document.getElementById("email");
-  const emailRegex = /^[a-zA-Z0-9]+([._-][a-zA-Z0-9]+)*@gmail.com$/.test(email.value);
+  const emailRegex = /^[a-zA-Z0-9]+([._-][a-zA-Z0-9]+)*@gmail.com$/.test(
+    email.value,
+  );
 
   if (emailRegex) {
     email.classList.remove("border-red-500");
@@ -14,10 +16,10 @@ export function validateEmail() {
   const password = document.getElementById("password");
 
   if (email.value !== "" && email.value === password.value) {
-        checkPasswordAndEmail.classList.remove("hidden");
-        password.classList.add("border-red-500");
+    checkPasswordAndEmail.classList.remove("hidden");
+    password.classList.add("border-red-500");
   } else {
-        checkPasswordAndEmail.classList.add("hidden");
-        password.classList.remove("border-red-500");
-    } 
+    checkPasswordAndEmail.classList.add("hidden");
+    password.classList.remove("border-red-500");
+  }
 }

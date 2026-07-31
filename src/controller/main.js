@@ -1,5 +1,11 @@
 import { validateEmail } from "../model/validate-email.js";
-import {showPasswordRules, showOrHidePassword, validatePasswordRules, validateConfirmPassword, showOrHideConfirmPassword} from "../model/validate-password.js";
+import {
+  showPasswordRules,
+  showOrHidePassword,
+  validatePasswordRules,
+  validateConfirmPassword,
+  showOrHideConfirmPassword,
+} from "../model/validate-password.js";
 import { submitBtn } from "../model/submit-btn.js";
 
 const email = document.getElementById("email");
@@ -26,8 +32,13 @@ confirmPassword.addEventListener("input", () => {
   submitBtn();
 });
 
-const showOrHideConfirmPasswordBtn = document.getElementById("showOrHideConfirmPasswordBtn");
-showOrHideConfirmPasswordBtn.addEventListener("click", showOrHideConfirmPassword);
+const showOrHideConfirmPasswordBtn = document.getElementById(
+  "showOrHideConfirmPasswordBtn",
+);
+showOrHideConfirmPasswordBtn.addEventListener(
+  "click",
+  showOrHideConfirmPassword,
+);
 
 const checkBox = document.getElementById("checkbox");
 checkBox.addEventListener("change", submitBtn);

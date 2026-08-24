@@ -28,7 +28,7 @@ MVC Architecture
 1. Clone repo
 
 ```
-git clone URL
+git clone git@github.com:STEPHEN-EMMAHI/form-validating.git
 ```
 2. cd project-name
 ```

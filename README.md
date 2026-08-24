@@ -31,6 +31,9 @@ MVC Architecture
 git clone URL
 ```
 2. cd project-name
+```
+cd form-validating
+```
 3. install dependencies
 
 ```

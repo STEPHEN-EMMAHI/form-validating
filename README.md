@@ -30,20 +30,20 @@ MVC Architecture
 ```
 git clone URL
 ```
-
-2. install dependencies
+2. cd project-name
+3. install dependencies
 
 ```
 npm install
 ```
 
-3. Run development environment
+4. Run development environment
 
 ```
 npm run dev
 ```
 
-4. Copy local host and send to browser. <br>
+5. Copy local host and send to browser. <br>
    Example: http://localhost:5173/
 
 ## Tech Stack
